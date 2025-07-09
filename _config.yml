@@ -16,8 +16,8 @@
 title: Le piano Kismar
 email: hello@patdryburgh.com
 description: >- # this means to ignore newlines until "baseurl:"
-  An inarguably well-designed Jekyll theme.
-baseurl: "/" # the subpath of your site, e.g. /blog
+  On chante, on boit, on s'marre
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://patdryburgh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
 twitter_username: patdryburgh
