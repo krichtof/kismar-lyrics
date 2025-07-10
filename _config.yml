@@ -44,3 +44,5 @@ plugins:
 collections:
   songs:
     output: true
+
+hide_search: true
