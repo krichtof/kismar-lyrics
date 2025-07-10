@@ -21,14 +21,9 @@ layout: default
   </div>
 
   <div class="post-meta">
-    {% if page.author %}
-      <div itemprop="author">{{ page.author }}</div>
+    {% if page.singer %}
+      <div itemprop="author">{{ page.singer }}</div>
     {% endif %}
-    <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
   </div>
-
-  {% if site.disqus.shortname %}
-    {% include disqus-comments.html %}
-  {% endif %}
 
 </article>
