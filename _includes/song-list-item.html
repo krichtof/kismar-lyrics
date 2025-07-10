@@ -1,0 +1,19 @@
+<li>
+  <a href="{{ post.url | absolute_url }}" class="post-link">
+    <div class="post-link__heading">
+      {% unless song.title == "" %}
+          <h1 class="post-link__title">      
+            {{ song.title }}
+          </h1>
+      {% else %}
+        {% include post-excerpt.html %}
+      {% endunless %}
+      {% if song.title != "" and site.show_excerpts == true %}
+        {% include post-excerpt.html %}
+      {% endif %}
+    </div>
+    <span class="post-date">
+      {{ song.singer }}
+    </span>
+  </a>
+</li>
