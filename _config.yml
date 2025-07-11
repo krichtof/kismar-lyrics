@@ -42,7 +42,10 @@ plugins:
   - jekyll-paginate
 
 collections:
+  songsr:
+    output: true
   songs:
     output: true
+    relative_directory: "_songsr"
 
 hide_search: true
