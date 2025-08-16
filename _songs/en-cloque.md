@@ -18,7 +18,7 @@ Déjà les p'tits anges
 Sur le papier peint  
 J' trouvais ça étrange  
 J' dis rien  
-Elle me font marrer  
+Elles me font marrer  
 Ses idées loufoques  
 Depuis qu'elle est  
 En cloque  
@@ -28,7 +28,7 @@ Pour bouffer des fraises
 Elle a des envies  
 Balaises  
 Moi, j' suis aux p'tits soins  
-J' me défonces en huit  
+J' me défonce en huit  
 Pour qu'elle manque de rien  
 Ma p'tite  
   
@@ -54,16 +54,16 @@ J' lui dit qu'elle est belle
 Comme un fruit trop mûr  
 Elle croit qu' je m' fous d'elle  
 C'est sûr  
-Faut bien dire s' qu'y est  
-Moi aussi j' débloque  
+Faut bien dire c'qu'y est  
+Moi aussi j'débloque  
 Depuis qu'elle est  
 En cloque  
   
-Faut qu' j' retire mes grolles  
-Quand j' rentre dans la chambre  
+Faut qu' j'retire mes grolles  
+Quand j'rentre dans la chambre  
 Du p'tit rossignol  
 Qu'elle couve  
-C'est qu' son p'tit bonhomme  
+C'est qu'son p'tit bonhomme  
 Qu'arrive en Décembre  
 Elle le protège comme  
 Une louve  
@@ -86,8 +86,8 @@ J' lui dis "t'es un jardin"
 Alors elle devient  
 Toute rouge  
   
-Parfois c' qu'y m' désole  
-C' qu'y fait du chagrin  
+Parfois c' qui m' désole  
+C' qui m'fait du chagrin  
 Quand j' regarde son ventre  
 Et l' mien  
 C'est qu' même si j' devenais  
