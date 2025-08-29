@@ -29,7 +29,7 @@ layout: default
   </h1>
 
     <ul class="post-list">
-      {% assign singer_songs = site.songsr | sort: "singer_name" %}
+      {% assign singer_songs = site.songs | sort: "singer_name" %}
       {% for song in singer_songs %}
         {% include song-list-item.html %}
       {% endfor %}
