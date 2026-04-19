@@ -1,9 +1,10 @@
 .post {
-  background: white;
+  background: $surface-color;
   margin: 2em auto;
   max-width: 60rem;
   padding: 2em 0;
-  box-shadow: 12px 18px 24px rgba(darken($brand-color, 50%), .1);
+  box-shadow: 0 8px 48px rgba(0, 0, 0, 0.5);
+  border-top: 2px solid $brand-color;
 }
 
 .post > * {
@@ -18,9 +19,15 @@
   max-width: 48rem;
   padding: 2em 1em;
   text-align: center;
+  color: $brand-color;
 }
+
 h1 .singer {
   font-size: 0.5em;
+  color: $muted-text-color;
+  display: block;
+  letter-spacing: .1em;
+  font-style: italic;
 }
 
 .post p {
@@ -35,6 +42,7 @@ h1 .singer {
 
 .post a:hover {
   background: $highlight;
+  color: $brand-color;
 }
 
 .post dl,
@@ -56,6 +64,7 @@ h1 .singer {
   margin-bottom: 2em;
   margin-top: 2em;
   text-align: right;
+  color: $muted-text-color;
 }
 
 .back-link {
@@ -64,4 +73,10 @@ h1 .singer {
   padding: 1em;
   text-decoration: none;
   text-transform: uppercase;
+  color: $muted-text-color;
+  letter-spacing: .1em;
+  transition: color .125s ease-in-out;
+  &:hover {
+    color: $brand-color;
+  }
 }

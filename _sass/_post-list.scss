@@ -4,13 +4,14 @@
   &:hover,
   &:focus-within {
     .post-link {
-      opacity: .6;
+      opacity: .5;
     }
   }
 }
 
 .post-list li {
-  margin-bottom: 1em;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba($brand-color, 0.1);
 }
 
 .post-link {
@@ -18,11 +19,12 @@
   display: flex;
   flex-direction: column-reverse;
   text-decoration: none;
-  padding: .25em;
-  transition: opacity .125s ease-in-out;
+  padding: .6em .25em;
+  transition: opacity .125s ease-in-out, color .125s ease-in-out;
   &:hover,
   &:focus {
     opacity: 1 !important;
+    color: $brand-color;
   }
   @media (min-width: $on-tablet) {
     display: flex;
@@ -72,10 +74,13 @@
   a {
     text-decoration: none;
     text-transform: uppercase;
-    transition: opacity .125s ease-in-out;
+    letter-spacing: .1em;
+    color: $muted-text-color;
+    transition: opacity .125s ease-in-out, color .125s ease-in-out;
     &:hover,
     &:focus {
       opacity: 1;
+      color: $brand-color;
     }
   }
 }

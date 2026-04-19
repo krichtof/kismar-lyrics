@@ -4,7 +4,7 @@
   &:hover,
   &:focus-within {
     a {
-      opacity: .7;
+      opacity: .5;
     }
   }
 }
@@ -20,9 +20,11 @@
   list-style: none;
   font-size: .875em;
   font-variant: small-caps;
+  letter-spacing: .08em;
   margin: 0;
   &.active a {
-    text-decoration: underline;
+    color: $brand-color;
+    opacity: 1;
   }
 }
 
@@ -30,9 +32,11 @@
   display: block;
   padding: .25em .5em;
   text-decoration: none;
-  transition: opacity .125s ease-in-out;
+  color: $muted-text-color;
+  transition: opacity .125s ease-in-out, color .125s ease-in-out;
   &:hover,
   &:focus {
     opacity: 1;
+    color: $brand-color;
   }
 }

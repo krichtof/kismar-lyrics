@@ -1,5 +1,5 @@
 body {
-  background: $brand-color;
+  background: $background-color;
   color: $text-color;
   font-family: $font-family;
   font-size: 1.3125em;
@@ -57,7 +57,7 @@ a {
 }
 
 a:focus {
-  outline: 1px dashed $text-color;
+  outline: 1px dashed $brand-color;
 }
 
 blockquote {
@@ -113,7 +113,7 @@ figcaption {
 }
 
 .home {
-  max-width: 24em;
+  max-width: 28em;
   margin: auto;
   padding: 4em 1em;
 }
@@ -138,10 +138,12 @@ figcaption {
   margin: 0 auto 2em;
   padding: 0 2em;
   text-align: center;
+  opacity: .3;
+  font-size: .75em;
 }
 
 .skip-navigation {
-  background: $brand-color;
+  background: $surface-color;
   border: 1px dashed transparent;
   display: block;
   font-size: .875em;
@@ -153,8 +155,8 @@ figcaption {
   text-transform: uppercase;
   &:hover,
   &:focus {
-    background: lighten($brand-color, 2.5%);
-    border-color: $text-color;
+    background: lighten($surface-color, 5%);
+    border-color: $brand-color;
     margin-top: 0;
   }
 }
