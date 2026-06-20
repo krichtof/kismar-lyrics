@@ -32,3 +32,18 @@
     font-size: 2em;
   }
 }
+
+.scroll-cue {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5em;
+  color: $brand-color;
+  text-decoration: none;
+  animation: bounce 1.6s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
