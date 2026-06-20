@@ -2,25 +2,29 @@
   box-sizing: border-box;
   position: relative;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid rgba($brand-color, 0.3);
+  @media (min-width: $on-tablet) {
+    padding-bottom: 2rem;
+  }
 }
 
 .site-masthead h1 {
-  font-size: 3em;
+  font-size: 1.8em;
   margin-bottom: 0;
-  margin-top: 1em;
+  margin-top: .5em;
   padding: 0 2rem;
   color: $brand-color;
   letter-spacing: .05em;
   @media (min-width: $on-tablet) {
     font-size: 6em;
+    margin-top: 1em;
   }
 }
 
 .site-masthead h2 {
   color: $muted-text-color;
-  font-size: 1.25em;
+  font-size: 1em;
   font-style: italic;
   margin: 0;
   padding: 0 2rem;
