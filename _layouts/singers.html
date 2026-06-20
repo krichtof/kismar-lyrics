@@ -7,8 +7,8 @@ layout: default
 {% elsif site.paginate and site.paginate_path and paginator.page > 1 %}
   {% include back-link.html %}
 {% else %}
+  {% include menu.html %}
   <header class="site-masthead">
-    {% include menu.html %}
     {% if site.title %}
       <h1>
         {{ site.title }}
