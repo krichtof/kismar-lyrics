@@ -4,6 +4,7 @@ title: L'été indien
 singer: Joe Dassin
 singer_name: Dassin
 styles: chanson
+published: false
 ---
 Tu sais, je n´ai jamais été aussi heureux que ce matin-là  
 Nous marchions sur une plage un peu comme celle-ci  

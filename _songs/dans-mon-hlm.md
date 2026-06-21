@@ -4,6 +4,7 @@ title: Dans mon HLM
 singer: Renaud
 singer_name: Renaud
 styles: chanson
+published: false
 ---
 Au rez-d'-chaussée, dans mon HLM y a une espèce de barbouze  
 Qui surveille les entrées, qui tire sur tout c' qui bouge,  
