@@ -1,53 +1,33 @@
 ---
 layout: song
-title: Elle a fait un bébé toute seule
-singer: Jean-Jacques Goldman
-singer_name: Goldman
+title: Mistral Gagnant
+singer: Renaud
+singer_name: Renaud
 styles: chanson
 ---
-Elle a fait un bébé toute seule  
-Elle a fait un bébé toute seule  
-C'était dans ces années un peu folles  
-Où les papas n'étaient plus à la mode  
-Elle a fait un bébé toute seule  
+
+A m'asseoir sur un banc cinq minutes avec toi et regarder les gens tant qu'y en a  
+Te parler du bon temps qu'est mort ou qui r'viendra  
+En serrant dans ma main tes p'tits doigts  
+Pis donner à bouffer à des pigeons idiots leur filer des coups d' pieds pour de faux  
+Et entendre ton rire qui lézarde les murs qui sait surtout guérir mes blessures  
+Te raconter un peu comment j'étais mino  
+Les bonbecs fabuleux qu'on piquait chez l' marchand  
+Car-en-sac et Minto, caramel à un franc et les mistrals gagnants  
   
-Elle a fait un bébé toute seule  
-Elle a fait un bébé toute seule  
+A r'marcher sous la pluie cinq minutes avec toi et regarder la vie tant qu'y en a  
+Te raconter la Terre en te bouffant des yeux Te parler de ta mère un p'tit peu  
+Et sauter dans les flaques pour la faire râler Bousiller nos godasses et s' marrer  
+Et entendre ton rire comme on entend la mer s'arrêter, r'partir en arrière  
+Te raconter surtout les carambars d'antan et les cocos bohères  
+Et les vrais roudoudous qui nous coupaient les lèvres Et nous niquaient les dents  
+Et les mistrals gagnants  
   
-Elle a choisi le père en scientifique  
-Pour ses gènes, son signe astrologique  
-Elle a fait un bébé toute seule  
-  
-Et elle court toute la journée  
-Elle court de décembre en été  
-De la nourrice à la baby-sitter  
-Des paquets de couches au biberon de quatre heures  
-Et elle fume, fume, fume même au petit-déjeuner  
-  
-Elle défait son grand lit toute seule  
-Elle défait son grand lit toute seule  
-Et elle vit comme dans tous ces magazines  
-Où le fric et les hommes sont faciles  
-Elle défait son grand lit toute seule  
-  
-Et elle court toute la journée  
-Elle court de décembre en été  
-Le garage, la gym et le blues alone  
-Et les copines qui pleurent des heures au téléphone  
-Elle assume, sume, sume sa nouvelle féminité  
-  
-Et elle court toute la journée  
-Elle court de décembre en été  
-De la nourrice à la baby-sitter  
-Des paquets de couches au biberon de quatre heures  
-Et elle fume, fume, fume même au petit-déjeuner  
-  
-Elle m'téléphone quand elle est mal  
-Quand elle peut pas dormir  
-J'l'emmène au cinéma, j'lui fais des câlins, j'la fais rire  
-Un peu comme un grand frère  
-Un peu incestueux quand elle veut  
-Puis son gamin, c'est presque le mien,  
-sauf qu'il a les yeux bleu  
-Elle a fait un bébé toute seule  
-  
+A m'asseoir sur un banc cinq minutes avec toi et regarder le soleil qui s'en va  
+Te parler du bon temps qu'est mort et je m'en fous  
+Te dire que les méchants c'est pas nous  
+Que si moi je suis barge, ce n'est que de tes yeux car ils ont l'avantage d'être deux  
+Et entendre ton rire s'envoler aussi haut que s'envolent les cris des oiseaux  
+Te raconter enfin qu'il faut aimer la vie et l'aimer même si le temps est assassin  
+Et emporte avec lui les rires des enfants et les mistrals gagnants  
+Et les mistrals gagnants  
