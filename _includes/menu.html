@@ -1,18 +1,27 @@
 {% assign menu = site.data.menu %}
+{% assign is_piano = false %}
+{% if page.url contains '/piano/' %}
+  {% assign is_piano = true %}
+{% endif %}
 
 {% if menu %}
   <nav class="site-navigation" role="navigation">
     <ul>
     {% for item in site.data.menu %}
-      <li {% if page.url == item.url %}class="active"{% endif %}>
-        {% if item.url contains 'http' %}
-          <a href="{{ item.url }}">
-            {{ item.title }}
-          </a>
+      {% if is_piano %}
+        {% if item.url == '/' %}
+          {% assign item_url = '/piano/' %}
         {% else %}
-          <a href="{{ item.url | prepend: site.baseurl }}">
-            {{ item.title }}
-          </a>
+          {% assign item_url = '/piano' | append: item.url | append: '/' %}
+        {% endif %}
+      {% else %}
+        {% assign item_url = item.url %}
+      {% endif %}
+      <li {% if page.url == item_url %}class="active"{% endif %}>
+        {% if item.url contains 'http' %}
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        {% else %}
+          <a href="{{ item_url | prepend: site.baseurl }}">{{ item.title }}</a>
         {% endif %}
       </li>
     {% endfor %}

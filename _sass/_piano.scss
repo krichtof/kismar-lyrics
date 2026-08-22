@@ -1,0 +1,120 @@
+.piano-info {
+  margin: 0 auto 2em;
+  max-width: 36rem;
+  padding: 0 1em;
+}
+
+.piano-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: $surface-color;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+  max-width: 100%;
+  padding: .3em 2em;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+}
+
+.piano-tonalite {
+  font-size: .65em;
+  color: $muted-text-color;
+
+  strong {
+    color: $brand-color;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .85em;
+    margin-right: .3em;
+  }
+
+  span {
+    color: $text-color;
+  }
+}
+
+.piano-grille {
+  font-size: .65em;
+
+  .grille-label {
+    color: $brand-color;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .85em;
+    display: inline;
+    margin-right: .4em;
+  }
+
+  .grille-accords {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: .25em;
+  }
+
+  .mesure {
+    border: 1px solid rgba(201, 168, 76, 0.5);
+    border-radius: 3px;
+    padding: .1em .4em;
+    font-family: monospace;
+    color: $text-color;
+    background: rgba(201, 168, 76, 0.06);
+    min-width: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+  }
+
+  .mesure-nom {
+    font-size: 1em;
+  }
+
+  .mesure-notes {
+    font-size: .7em;
+    color: $muted-text-color;
+    letter-spacing: .03em;
+  }
+}
+
+.piano-link {
+  display: inline-block;
+  font-size: .75em;
+  padding: .4em .8em;
+  border: 1px solid $brand-color;
+  border-radius: 4px;
+  text-decoration: none;
+  color: $brand-color;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  transition: all .125s ease-in-out;
+
+  &:hover {
+    background: $highlight;
+  }
+}
+
+.piano-subtitle {
+  display: block;
+  font-size: .35em;
+  color: $brand-color;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  margin-top: .3em;
+}
+
+.piano-badge {
+  display: inline-block;
+  font-size: .35em;
+  padding: .3em .7em;
+  border: 1px solid $brand-color;
+  border-radius: 4px;
+  color: $brand-color;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin-left: .5em;
+}

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% include menu.html %}
+<header class="site-masthead">
+  {% if site.title %}
+    <h1>
+      {{ site.title }}
+      <span class="piano-subtitle">Piano Kismar</span>
+    </h1>
+  {% endif %}
+  {% if site.description %}
+    <h2>
+      {{ site.description }}
+    </h2>
+  {% endif %}
+  <a href="#main" class="scroll-cue" aria-label="Voir les chansons">↓</a>
+</header>
+
+<main class="home" id="main" role="main" aria-label="Content">
+
+  <h1 class="content-title divided">
+    {{ page.title }}
+  </h1>
+
+  <ul class="post-list">
+    {% assign songs = site.songs | sort: "title" %}
+    {% for song in songs %}
+      {% include song-list-item-piano.html %}
+    {% endfor %}
+  </ul>
+</main>

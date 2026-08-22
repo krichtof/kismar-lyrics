@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+{% if site.data.menu %}
+  {% include menu.html %}
+{% else %}
+  {% include back-link.html %}
+{% endif %}
+
+{% assign song = site.songs | where: "slug", page.slug | first %}
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
+
+  {% if song.title != "" %}
+    <h1 class="post-title divided p-name" itemprop="name headline">
+      {{ song.title }} <span class="singer">par {{ song.singer }}</span>
+    </h1>
+  {% endif %}
+
+  <div class="piano-info piano-sticky">
+    {% if song.tonalite %}
+      <div class="piano-tonalite">
+        <strong>Tonalité</strong>
+        <span>{{ song.tonalite }}</span>
+      </div>
+    {% endif %}
+
+    {% for grille in song.grilles %}
+      <div class="piano-grille">
+        <div class="grille-label">{{ grille.label }}</div>
+        <div class="grille-accords">
+          {% for accord in grille.accords %}
+            <div class="mesure">
+              <span class="mesure-nom">{% if accord.nom %}{{ accord.nom }}{% else %}{{ accord }}{% endif %}</span>
+              {% if accord.notes %}<span class="mesure-notes">{{ accord.notes }}</span>{% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ song.content }}
+  </div>
+
+  <div class="post-meta">
+    {% if song.singer %}
+      <div itemprop="author">{{ song.singer }}</div>
+    {% endif %}
+  </div>
+
+</article>

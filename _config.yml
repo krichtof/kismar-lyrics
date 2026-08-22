@@ -47,5 +47,8 @@ collections:
   songs:
     output: true
     relative_directory: "_songsr"
+  piano:
+    output: true
+    permalink: /piano/:name/
 
 hide_search: true

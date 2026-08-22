@@ -4,6 +4,23 @@ title: Let it be
 singer: The Beatles
 singer_name: Beatles
 styles: pop
+tonalite: Do majeur (C)
+grilles:
+  - label: Couplet
+    accords:
+      - nom: C
+        notes: Do-Mi-Sol
+      - nom: G
+      - nom: Am
+        notes: La-Do-Mi
+      - nom: F
+  - label: Refrain
+    accords:
+      - nom: F
+      - nom: C
+        notes: Do-Mi-Sol
+      - nom: G
+      - nom: Am
 ---
 When I find myself in times of trouble  
 Mother Mary comes to me  
