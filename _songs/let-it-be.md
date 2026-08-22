@@ -4,6 +4,7 @@ title: Let it be
 singer: The Beatles
 singer_name: Beatles
 styles: pop
+youtube: F11YKnRPkng
 tonalite: Do majeur (C)
 grilles:
   - label: Couplet

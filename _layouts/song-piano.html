@@ -45,6 +45,8 @@ layout: default
     {{ song.content }}
   </div>
 
+  {% include youtube.html id=song.youtube %}
+
   <div class="post-meta">
     {% if song.singer %}
       <div itemprop="author">{{ song.singer }}</div>

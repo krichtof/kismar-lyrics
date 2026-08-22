@@ -67,6 +67,18 @@ h1 .singer {
   color: $muted-text-color;
 }
 
+.youtube-embed {
+  margin: 2em auto;
+  max-width: 36rem;
+  padding: 0 1em;
+
+  iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 4px;
+  }
+}
+
 .back-link {
   display: inline-block;
   font-size: .75em;
